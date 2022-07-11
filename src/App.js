@@ -1,21 +1,22 @@
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import "./App.css";
-import { Container, Button } from "react-bootstrap";
 import { Menu, Footer } from "./components";
+import { Home, Services } from "./pages";
 
 function App() {
   return (
-    <Container fluid>
+    <>
       <Menu />
+      <BrowserRouter>
+        <Routes>
+          {/* Paages  */}
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/services" element={<Services />} />
+        </Routes>
+      </BrowserRouter>
       <Footer />
-      <Button variant="primary">Primary</Button>{" "}
-      <Button variant="secondary">Secondary</Button>{" "}
-      <Button variant="success">Success</Button>{" "}
-      <Button variant="warning">Warning</Button>{" "}
-      <Button variant="danger">Danger</Button>{" "}
-      <Button variant="info">Info</Button>{" "}
-      <Button variant="light">Light</Button>{" "}
-      <Button variant="dark">Dark</Button> <Button variant="link">Link</Button>
-    </Container>
+    </>
   );
 }
 
