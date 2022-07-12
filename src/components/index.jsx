@@ -2,3 +2,8 @@ export { default as Menu } from "./Menu";
 export { default as Footer } from "./Footer";
 export { default as Main } from "./Main";
 export { default as Service } from "./Service";
+export { default as About } from "./About";
+export { default as Contact } from "./Contact";
+export { default as Counter } from "./Counter";
+export { default as Price } from "./Price";
+export { default as Cta } from "./Cta";

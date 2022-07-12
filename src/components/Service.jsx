@@ -13,8 +13,8 @@ const Service = () => {
           <div class="row justify-content-center">
             <div class="col-lg-8">
               <div class="section-title text-center mb-55">
-                <h2>Soluciones de Diseños Creativos</h2>
-                <p>Agencia digital profesional</p>
+                <h2>Agencia Creativa Digital</h2>
+                <p>Soluciones de Problemas Profesionales</p>
               </div>
             </div>
           </div>
@@ -92,7 +92,7 @@ c231 -127 404 -229 385 -225 -68 14 -703 164 -705 167 -2 3 -112 260 -123 287
                 </div>
                 <div class="text">
                   <h3 class="title">
-                    <a href="service-details.html">Estrategia</a>
+                    <a href="/services">Estrategia</a>
                   </h3>
                   <ul class="list-style-two">
                     <li>
@@ -107,7 +107,7 @@ c231 -127 404 -229 385 -225 -68 14 -703 164 -705 167 -2 3 -112 260 -123 287
                       Product Strategy
                     </li>
                   </ul>
-                  <a href="#" class="btn-link">
+                  <a href="/services" class="btn-link">
                     Leer más
                     <FontAwesomeIcon icon={faArrowRightLong} />
                   </a>
@@ -175,7 +175,7 @@ m-160 -520 l0 -75 -520 0 -520 0 0 75 0 75 520 0 520 0 0 -75z"
                 </div>
                 <div class="text">
                   <h3 class="title">
-                    <a href="#">Diseño de Producto</a>
+                    <a href="/services">Diseño de Producto</a>
                   </h3>
                   <ul class="list-style-two">
                     <li>
@@ -191,7 +191,7 @@ m-160 -520 l0 -75 -520 0 -520 0 0 75 0 75 520 0 520 0 0 -75z"
                       Product Strategy
                     </li>
                   </ul>
-                  <a href="#" class="btn-link">
+                  <a href="/services" class="btn-link">
                     Leer más
                     <FontAwesomeIcon icon={faArrowRightLong} />
                   </a>
@@ -277,7 +277,7 @@ m956 -458 c3 -295 4 -320 22 -340 10 -11 68 -37 128 -57 60 -20 159 -60 219
                 </div>
                 <div class="text">
                   <h3 class="title">
-                    <a href="#">Desarrollo</a>
+                    <a href="/services">Desarrollo</a>
                   </h3>
                   <ul class="list-style-two">
                     <li>
@@ -293,7 +293,7 @@ m956 -458 c3 -295 4 -320 22 -340 10 -11 68 -37 128 -57 60 -20 159 -60 219
                       Product Strategy
                     </li>
                   </ul>
-                  <a href="#" class="btn-link">
+                  <a href="/services" class="btn-link">
                     Leer más
                     <FontAwesomeIcon icon={faArrowRightLong} />
                   </a>
