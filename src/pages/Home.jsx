@@ -1,10 +1,11 @@
 import React from "react";
-import { Main } from "../components";
+import { Main, Service } from "../components";
 
 const Home = () => {
   return (
     <>
       <Main />
+      <Service />
     </>
   );
 };

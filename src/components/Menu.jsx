@@ -49,6 +49,21 @@ const Menu = () => {
                     </a>
                   </li>
                   <li className="menu-item">
+                    <a href="/about" className="nav-link">
+                      Sobre
+                    </a>
+                  </li>
+                  <li className="menu-item">
+                    <a href="/portfolio" className="nav-link">
+                      Portafolio
+                    </a>
+                  </li>
+                  <li className="menu-item">
+                    <a href="/prices" className="nav-link">
+                      Precios
+                    </a>
+                  </li>
+                  <li className="menu-item">
                     <a href="/contact" className="nav-link">
                       Contacto
                     </a>
