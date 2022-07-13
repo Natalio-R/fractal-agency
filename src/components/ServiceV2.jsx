@@ -5,37 +5,37 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Service = () => {
+const ServiceV2 = () => {
   return (
-    <section class="service-area service-area-v1">
-      <div class="container-1350">
-        <div class="service-wrapper pt-75 pb-40">
-          <div class="row justify-content-center">
-            <div class="col-lg-8">
-              <div class="section-title text-center mb-55">
-                <h2>Agencia Creativa Digital</h2>
-                <p>Soluciones de Problemas Profesionales</p>
-              </div>
+    <section class="service-area service-area-v1 bototm-minus-200 position-relative z-2">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center mb-55">
+              <span class="sub-title st-one">Services</span>
+              <h2>Creative Design Solutions</h2>
+              <p>Professional Design Agency to provide solutions</p>
             </div>
           </div>
-          <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="service-item service-style-two mb-40">
-                <div class="icon">
-                  <svg
-                    version="1.0"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="512.000000pt"
-                    height="512.000000pt"
-                    viewBox="0 0 512.000000 512.000000"
-                    preserveAspectRatio="xMidYMid meet"
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="service-item service-style-three mb-40">
+              <div class="icon">
+                <svg
+                  version="1.0"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="512.000000pt"
+                  height="512.000000pt"
+                  viewBox="0 0 512.000000 512.000000"
+                  preserveAspectRatio="xMidYMid meet"
+                >
+                  <g
+                    transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                    stroke="none"
                   >
-                    <g
-                      transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-                      stroke="none"
-                    >
-                      <path
-                        d="M3550 4954 c-14 -2 -56 -9 -95 -15 -38 -6 -115 -26 -171 -44 -472
+                    <path
+                      d="M3550 4954 c-14 -2 -56 -9 -95 -15 -38 -6 -115 -26 -171 -44 -472
 -154 -819 -578 -872 -1065 l-7 -65 -105 -3 -105 -3 -105 106 c-57 58 -109 105
 -115 105 -13 0 -105 -92 -105 -105 0 -5 21 -31 47 -57 l47 -48 -194 0 c-214 0
 -287 -9 -400 -46 -126 -42 -215 -99 -320 -204 -165 -165 -250 -365 -250 -590
@@ -67,15 +67,15 @@ m45 -419 c113 -36 198 -89 290 -181 91 -91 144 -175 182 -290 23 -71 26 -96
 127 162 0 29 -15 49 -127 162 -70 70 -132 128 -137 128 -13 0 -106 -91 -106
 -104 0 -6 21 -32 47 -58 l47 -48 -257 0 -257 0 0 29 c0 48 46 181 87 250 103
 176 301 316 495 351 91 16 253 5 343 -24z"
-                      />
-                      <path
-                        d="M3680 4081 l0 -79 48 -7 c59 -8 155 -59 188 -98 14 -16 37 -53 52
+                    />
+                    <path
+                      d="M3680 4081 l0 -79 48 -7 c59 -8 155 -59 188 -98 14 -16 37 -53 52
 -81 22 -43 26 -64 26 -136 1 -78 -2 -90 -33 -148 -19 -35 -48 -74 -64 -88 -45
 -38 -117 -71 -170 -79 l-47 -7 0 -79 0 -79 28 0 c15 0 54 7 85 15 173 45 307
 178 352 350 65 251 -94 513 -352 580 -31 8 -70 15 -85 15 l-28 0 0 -79z"
-                      />
-                      <path
-                        d="M185 2055 c-14 -13 -25 -35 -25 -47 0 -13 39 -114 86 -223 47 -110
+                    />
+                    <path
+                      d="M185 2055 c-14 -13 -25 -35 -25 -47 0 -13 39 -114 86 -223 47 -110
 98 -230 114 -267 l29 -67 -115 -152 c-79 -105 -114 -161 -114 -179 0 -18 35
 -74 114 -179 l115 -152 -29 -67 c-16 -37 -67 -157 -114 -267 -47 -109 -86
 -210 -86 -223 0 -31 43 -72 75 -72 30 0 1640 881 1668 912 9 11 17 33 17 48 0
@@ -86,51 +86,52 @@ c231 -127 404 -229 385 -225 -68 14 -703 164 -705 167 -2 3 -112 260 -123 287
 -103 111 l-86 115 87 116 c69 92 90 114 106 110 11 -3 226 -53 478 -113z m244
 -341 c-18 -16 -837 -463 -841 -459 -6 6 119 292 131 297 14 6 686 167 705 169
 8 1 10 -2 5 -7z"
-                      />
-                    </g>
-                  </svg>
-                </div>
-                <div class="text">
-                  <h3 class="title">
-                    <a href="/services">Estrategia</a>
-                  </h3>
-                  <ul class="list-style-two">
-                    <li>
-                      <FontAwesomeIcon icon={faArrowRight} /> Product Management
-                    </li>
-                    <li>
-                      <FontAwesomeIcon icon={faArrowRight} />
-                      MVP Definition
-                    </li>
-                    <li>
-                      <FontAwesomeIcon icon={faArrowRight} />
-                      Product Strategy
-                    </li>
-                  </ul>
-                  <a href="/services" class="btn-link">
-                    Leer más
-                    <FontAwesomeIcon icon={faArrowRightLong} />
-                  </a>
-                </div>
+                    />
+                  </g>
+                </svg>
+              </div>
+              <div class="text">
+                <h3 class="title">
+                  <a href="service-details.html">Strategy</a>
+                </h3>
+                <ul class="list-style-two">
+                  <li>
+                    <FontAwesomeIcon icon={faArrowRight} />
+                    Product Management
+                  </li>
+                  <li>
+                    <FontAwesomeIcon icon={faArrowRight} />
+                    MVP Definition
+                  </li>
+                  <li>
+                    <FontAwesomeIcon icon={faArrowRight} />
+                    Product Strategy
+                  </li>
+                </ul>
+                <a href="service-details.html" class="btn-link">
+                  Read More
+                  <FontAwesomeIcon icon={faArrowRightLong} />
+                </a>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="service-item service-style-two mb-40">
-                <div class="icon">
-                  <svg
-                    version="1.0"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="512.000000pt"
-                    height="512.000000pt"
-                    viewBox="0 0 512.000000 512.000000"
-                    preserveAspectRatio="xMidYMid meet"
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="service-item service-style-three mb-40">
+              <div class="icon">
+                <svg
+                  version="1.0"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="512.000000pt"
+                  height="512.000000pt"
+                  viewBox="0 0 512.000000 512.000000"
+                  preserveAspectRatio="xMidYMid meet"
+                >
+                  <g
+                    transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                    stroke="none"
                   >
-                    <g
-                      transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-                      stroke="none"
-                    >
-                      <path
-                        d="M870 4421 c-117 -38 -189 -142 -177 -255 9 -89 55 -158 132 -199 56
+                    <path
+                      d="M870 4421 c-117 -38 -189 -142 -177 -255 9 -89 55 -158 132 -199 56
 -30 164 -30 221 0 47 25 94 75 113 121 l13 32 279 0 c154 0 279 -2 279 -4 0
 -2 -30 -21 -67 -42 -138 -76 -250 -160 -363 -274 -177 -176 -297 -370 -375
 -602 -34 -102 -75 -306 -75 -373 l0 -33 -61 -4 c-97 -7 -99 -12 -99 -228 0
@@ -151,9 +152,9 @@ c26 -26 34 -42 34 -71 0 -29 -8 -45 -34 -71 -26 -26 -42 -34 -71 -34 -29 0
 -45 8 -71 34 -26 26 -34 42 -34 71 0 29 8 45 34 71 26 26 42 34 71 34 29 0 45
 -8 71 -34z m-3256 -1696 l0 -90 -85 0 -85 0 0 90 0 90 85 0 85 0 0 -90z m3290
 0 l0 -90 -85 0 -85 0 0 90 0 90 85 0 85 0 0 -90z"
-                      />
-                      <path
-                        d="M2398 3648 c-27 -21 -758 -1305 -757 -1330 0 -13 78 -183 173 -378
+                    />
+                    <path
+                      d="M2398 3648 c-27 -21 -758 -1305 -757 -1330 0 -13 78 -183 173 -378
 l173 -355 -62 -7 c-101 -10 -180 -62 -221 -145 -14 -28 -20 -66 -22 -139 -3
 -87 -1 -108 18 -152 28 -66 95 -128 155 -144 l45 -12 0 -124 c0 -117 1 -124
 25 -147 l24 -25 611 0 611 0 24 25 c24 23 25 30 25 147 l0 124 43 11 c57 16
@@ -169,52 +170,52 @@ l173 -355 -62 -7 c-101 -10 -180 -62 -221 -145 -14 -28 -20 -66 -22 -139 -3
 -1044 c44 -23 60 -63 60 -150 0 -72 -2 -77 -34 -113 l-34 -37 -672 0 -672 0
 -34 37 c-32 36 -34 41 -34 113 0 86 16 127 58 149 41 23 1319 23 1362 1z
 m-160 -520 l0 -75 -520 0 -520 0 0 75 0 75 520 0 520 0 0 -75z"
-                      />
-                    </g>
-                  </svg>
-                </div>
-                <div class="text">
-                  <h3 class="title">
-                    <a href="/services">Diseño de Producto</a>
-                  </h3>
-                  <ul class="list-style-two">
-                    <li>
-                      <FontAwesomeIcon icon={faArrowRight} />
-                      Product Management
-                    </li>
-                    <li>
-                      <FontAwesomeIcon icon={faArrowRight} />
-                      MVP Definition
-                    </li>
-                    <li>
-                      <FontAwesomeIcon icon={faArrowRight} />
-                      Product Strategy
-                    </li>
-                  </ul>
-                  <a href="/services" class="btn-link">
-                    Leer más
-                    <FontAwesomeIcon icon={faArrowRightLong} />
-                  </a>
-                </div>
+                    />
+                  </g>
+                </svg>
+              </div>
+              <div class="text">
+                <h3 class="title">
+                  <a href="service-details.html">Product Design</a>
+                </h3>
+                <ul class="list-style-two">
+                  <li>
+                    <FontAwesomeIcon icon={faArrowRight} />
+                    Product Management
+                  </li>
+                  <li>
+                    <FontAwesomeIcon icon={faArrowRight} />
+                    MVP Definition
+                  </li>
+                  <li>
+                    <FontAwesomeIcon icon={faArrowRight} />
+                    Product Strategy
+                  </li>
+                </ul>
+                <a href="service-details.html" class="btn-link">
+                  Read More
+                  <FontAwesomeIcon icon={faArrowRightLong} />
+                </a>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="service-item service-style-two mb-40 wow fadeInUp">
-                <div class="icon">
-                  <svg
-                    version="1.0"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="512.000000pt"
-                    height="512.000000pt"
-                    viewBox="0 0 512.000000 512.000000"
-                    preserveAspectRatio="xMidYMid meet"
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="service-item service-style-three mb-40">
+              <div class="icon">
+                <svg
+                  version="1.0"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="512.000000pt"
+                  height="512.000000pt"
+                  viewBox="0 0 512.000000 512.000000"
+                  preserveAspectRatio="xMidYMid meet"
+                >
+                  <g
+                    transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                    stroke="none"
                   >
-                    <g
-                      transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-                      stroke="none"
-                    >
-                      <path
-                        d="M2016 5099 l-26 -20 0 -334 0 -333 -52 -18 c-29 -9 -104 -39 -166
+                    <path
+                      d="M2016 5099 l-26 -20 0 -334 0 -333 -52 -18 c-29 -9 -104 -39 -166
 -67 l-113 -50 -233 232 c-223 222 -234 231 -272 231 -37 0 -49 -10 -406 -368
 -358 -357 -368 -369 -368 -406 0 -38 9 -49 231 -272 l232 -233 -50 -113 c-28
 -62 -58 -137 -67 -165 l-18 -53 -333 0 -334 0 -20 -26 c-21 -26 -21 -36 -21
@@ -245,59 +246,58 @@ m956 -458 c3 -295 4 -320 22 -340 10 -11 68 -37 128 -57 60 -20 159 -60 219
 60 159 90 219 31 64 54 124 54 142 0 29 -25 58 -225 257 l-225 225 292 292
 293 293 225 -225 c199 -199 229 -225 257 -225 18 0 79 23 142 54 60 30 159 70
 219 90 60 20 118 46 128 57 18 20 19 45 22 340 l3 319 409 0 409 0 3 -319z"
-                      />
-                      <path
-                        d="M2390 3950 c-599 -75 -1088 -535 -1207 -1137 -23 -121 -23 -385 0
+                    />
+                    <path
+                      d="M2390 3950 c-599 -75 -1088 -535 -1207 -1137 -23 -121 -23 -385 0
 -506 107 -541 508 -968 1033 -1101 470 -120 960 10 1312 348 514 493 574 1281
 142 1854 -200 266 -519 463 -852 527 -102 19 -326 27 -428 15z m430 -179 c313
 -70 589 -257 762 -515 151 -226 212 -427 212 -696 0 -270 -61 -470 -213 -697
 -108 -161 -292 -323 -470 -413 -276 -139 -633 -165 -931 -68 -308 100 -583
 336 -730 627 -39 79 -85 211 -106 311 -26 124 -25 372 4 495 81 356 290 641
 597 818 138 80 308 137 465 157 97 13 312 3 410 -19z"
-                      />
-                      <path
-                        d="M2598 3089 c-10 -5 -22 -18 -27 -28 -6 -10 -47 -233 -91 -495 -77
+                    />
+                    <path
+                      d="M2598 3089 c-10 -5 -22 -18 -27 -28 -6 -10 -47 -233 -91 -495 -77
 -451 -80 -479 -65 -502 33 -51 100 -56 129 -11 23 35 179 972 166 996 -23 44
 -75 62 -112 40z"
-                      />
-                      <path
-                        d="M1937 2781 c-131 -82 -247 -157 -258 -167 -27 -25 -26 -85 4 -111 12
+                    />
+                    <path
+                      d="M1937 2781 c-131 -82 -247 -157 -258 -167 -27 -25 -26 -85 4 -111 12
 -11 128 -86 258 -166 153 -96 245 -147 263 -147 60 0 100 86 58 128 -10 10
 -95 66 -190 126 -95 59 -172 111 -172 116 0 5 77 57 172 116 95 60 180 116
 190 126 42 42 2 128 -59 128 -19 0 -108 -51 -266 -149z"
-                      />
-                      <path
-                        d="M2865 2905 c-33 -32 -33 -79 -1 -108 13 -12 101 -69 195 -127 94 -58
+                    />
+                    <path
+                      d="M2865 2905 c-33 -32 -33 -79 -1 -108 13 -12 101 -69 195 -127 94 -58
 170 -107 170 -110 0 -3 -76 -52 -170 -110 -202 -124 -219 -138 -219 -180 0
 -39 39 -80 76 -80 18 0 110 51 263 147 130 80 246 155 259 166 28 26 30 86 3
 111 -10 10 -126 84 -257 167 -160 99 -248 149 -267 149 -16 0 -38 -10 -52 -25z"
-                      />
-                    </g>
-                  </svg>
-                </div>
-                <div class="text">
-                  <h3 class="title">
-                    <a href="/services">Desarrollo</a>
-                  </h3>
-                  <ul class="list-style-two">
-                    <li>
-                      <FontAwesomeIcon icon={faArrowRight} />
-                      Product Management
-                    </li>
-                    <li>
-                      <FontAwesomeIcon icon={faArrowRight} />
-                      MVP Definition
-                    </li>
-                    <li>
-                      <FontAwesomeIcon icon={faArrowRight} />
-                      Product Strategy
-                    </li>
-                  </ul>
-                  <a href="/services" class="btn-link">
-                    Leer más
-                    <FontAwesomeIcon icon={faArrowRightLong} />
-                  </a>
-                </div>
+                    />
+                  </g>
+                </svg>
+              </div>
+              <div class="text">
+                <h3 class="title">
+                  <a href="service-details.html">Development</a>
+                </h3>
+                <ul class="list-style-two">
+                  <li>
+                    <FontAwesomeIcon icon={faArrowRight} />
+                    Product Management
+                  </li>
+                  <li>
+                    <FontAwesomeIcon icon={faArrowRight} />
+                    MVP Definition
+                  </li>
+                  <li>
+                    <FontAwesomeIcon icon={faArrowRight} />
+                    Product Strategy
+                  </li>
+                </ul>
+                <a href="service-details.html" class="btn-link">
+                  Read More
+                  <FontAwesomeIcon icon={faArrowRightLong} />
+                </a>
               </div>
             </div>
           </div>
@@ -307,4 +307,4 @@ m956 -458 c3 -295 4 -320 22 -340 10 -11 68 -37 128 -57 60 -20 159 -60 219
   );
 };
 
-export default Service;
+export default ServiceV2;
