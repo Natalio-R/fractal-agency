@@ -1,7 +1,7 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import "./App.css";
 import { Menu, Footer } from "./components";
 import { Home, Services } from "./pages";
+import "./App.css";
 
 function App() {
   return (
